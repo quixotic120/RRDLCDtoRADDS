@@ -1,0 +1,258 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RRDLCDtoRADS-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X06 P3
+U 1 1 575A5FAF
+P 7675 1875
+F 0 "P3" H 7675 2225 50  0000 C CNN
+F 1 "RADDS_LCD" H 7675 1525 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 7675 675 50  0001 C CNN
+F 3 "" H 7675 675 50  0000 C CNN
+	1    7675 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P1
+U 1 1 575A5FD8
+P 5025 1800
+F 0 "P1" H 5025 2100 50  0000 C CNN
+F 1 "EXP1" H 5025 1500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5025 600 50  0001 C CNN
+F 3 "" H 5025 600 50  0000 C CNN
+	1    5025 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P4
+U 1 1 575A600D
+P 7725 3325
+F 0 "P4" H 7725 3625 50  0000 C CNN
+F 1 "RADDS_SD" H 7725 3025 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 7725 2125 50  0001 C CNN
+F 3 "" H 7725 2125 50  0000 C CNN
+	1    7725 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P2
+U 1 1 575A6028
+P 5025 3400
+F 0 "P2" H 5025 3700 50  0000 C CNN
+F 1 "EXP2" H 5025 3100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5025 2200 50  0001 C CNN
+F 3 "" H 5025 2200 50  0000 C CNN
+	1    5025 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 1600 0    60   Input ~ 0
+Beeper
+Text GLabel 4500 1700 0    60   Input ~ 0
+LCD_EN
+Text GLabel 4500 1800 0    60   Input ~ 0
+LCD4
+Text GLabel 4500 1900 0    60   Input ~ 0
+LCD6
+Text GLabel 4500 2000 0    60   Input ~ 0
+GND
+Text GLabel 7175 1625 0    60   Input ~ 0
+GND
+Text GLabel 7175 1725 0    60   Input ~ 0
+LCDRS
+Text GLabel 7175 1825 0    60   Input ~ 0
+LCD4
+Text GLabel 7175 1925 0    60   Input ~ 0
+LCD6
+Text GLabel 7175 2025 0    60   Input ~ 0
+BEEPER
+Text GLabel 7175 2125 0    60   Input ~ 0
+BIN_EN2
+Text GLabel 4550 3200 0    60   Input ~ 0
+MISO
+Text GLabel 4550 3300 0    60   Input ~ 0
+BIN_EN2
+Text GLabel 4550 3400 0    60   Input ~ 0
+BIN_EN1
+Text GLabel 4550 3500 0    60   Input ~ 0
+SD_DET
+Text GLabel 4550 3600 0    60   Input ~ 0
+GND
+Text GLabel 7275 3125 0    60   Input ~ 0
+RST
+Text GLabel 7275 3225 0    60   Input ~ 0
+SD_CSEL
+Text GLabel 7275 3325 0    60   Input ~ 0
+GND
+Text GLabel 7275 3425 0    60   Input ~ 0
+3.3V
+Text GLabel 7275 3525 0    60   Input ~ 0
+CS1
+Text GLabel 5500 3200 2    60   Input ~ 0
+SCK
+Text GLabel 5500 3300 2    60   Input ~ 0
+SD_CSEL
+Text GLabel 5500 3400 2    60   Input ~ 0
+MOSI
+Text GLabel 5500 3500 2    60   Input ~ 0
+RST
+Text GLabel 5500 3600 2    60   Input ~ 0
+KILL
+Text GLabel 8225 3125 2    60   Input ~ 0
+SCL1
+Text GLabel 8225 3225 2    60   Input ~ 0
+MISO
+Text GLabel 8225 3325 2    60   Input ~ 0
+SCK
+Text GLabel 8225 3425 2    60   Input ~ 0
+MOSI
+Text GLabel 8225 3525 2    60   Input ~ 0
+SD_DET
+Text GLabel 5500 1600 2    60   Input ~ 0
+BIN_ENC
+Text GLabel 5500 1700 2    60   Input ~ 0
+LCDRS
+Text GLabel 5500 1900 2    60   Input ~ 0
+LCD7
+Text GLabel 5500 1800 2    60   Input ~ 0
+LCD5
+Text GLabel 5500 2000 2    60   Input ~ 0
+VCC
+Text GLabel 8175 1625 2    60   Input ~ 0
+VCC
+Text GLabel 8175 1725 2    60   Input ~ 0
+LCD_EN
+Text GLabel 8175 1825 2    60   Input ~ 0
+LCD5
+Text GLabel 8175 1925 2    60   Input ~ 0
+LCD7
+Text GLabel 8175 2025 2    60   Input ~ 0
+BIN_ENC
+Text GLabel 8175 2125 2    60   Input ~ 0
+BIN_EN1
+Wire Wire Line
+	8175 1625 7925 1625
+Wire Wire Line
+	7925 1725 8175 1725
+Wire Wire Line
+	8175 1825 7925 1825
+Wire Wire Line
+	7925 1925 8175 1925
+Wire Wire Line
+	8175 2025 7925 2025
+Wire Wire Line
+	7925 2125 8175 2125
+Wire Wire Line
+	7425 1625 7175 1625
+Wire Wire Line
+	7175 1725 7425 1725
+Wire Wire Line
+	7425 1825 7175 1825
+Wire Wire Line
+	7175 1925 7425 1925
+Wire Wire Line
+	7425 2025 7175 2025
+Wire Wire Line
+	7175 2125 7425 2125
+Wire Wire Line
+	4775 1600 4500 1600
+Wire Wire Line
+	4500 1700 4775 1700
+Wire Wire Line
+	4775 1800 4500 1800
+Wire Wire Line
+	4500 1900 4775 1900
+Wire Wire Line
+	4775 2000 4500 2000
+Wire Wire Line
+	5275 2000 5500 2000
+Wire Wire Line
+	5500 1900 5275 1900
+Wire Wire Line
+	5275 1800 5500 1800
+Wire Wire Line
+	5500 1700 5275 1700
+Wire Wire Line
+	5275 1600 5500 1600
+Wire Wire Line
+	4775 3200 4550 3200
+Wire Wire Line
+	4775 3300 4550 3300
+Wire Wire Line
+	4550 3400 4775 3400
+Wire Wire Line
+	4775 3500 4550 3500
+Wire Wire Line
+	4550 3600 4775 3600
+Wire Wire Line
+	5275 3200 5500 3200
+Wire Wire Line
+	5500 3300 5275 3300
+Wire Wire Line
+	5275 3400 5500 3400
+Wire Wire Line
+	5500 3500 5275 3500
+Wire Wire Line
+	5275 3600 5500 3600
+Wire Wire Line
+	7475 3125 7275 3125
+Wire Wire Line
+	7275 3225 7475 3225
+Wire Wire Line
+	7475 3325 7275 3325
+Wire Wire Line
+	7275 3425 7475 3425
+Wire Wire Line
+	7475 3525 7275 3525
+Wire Wire Line
+	7975 3125 8225 3125
+Wire Wire Line
+	8225 3225 7975 3225
+Wire Wire Line
+	7975 3325 8225 3325
+Wire Wire Line
+	8225 3425 7975 3425
+Wire Wire Line
+	7975 3525 8225 3525
+$EndSCHEMATC
